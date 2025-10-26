@@ -11,17 +11,18 @@ return new class extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::create('tasks', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->text('description')->nullable();
-            $table->enum('status', ['pending', 'completed'])->default('pending');
-            $table->timestamps();
-            $table->softDeletes();  // Para soft deletes
-        });
-    }
+    
+public function up()
+{
+    Schema::create('tasks', function (Blueprint $table) {
+        $table->id();
+        $table->string('title');
+        $table->text('description')->nullable();
+        $table->enum('status', ['pending', 'completed'])->default('pending');
+        $table->timestamps();
+        $table->softDeletes();  // Para soft deletes
+    });
+}
 
 
     /**

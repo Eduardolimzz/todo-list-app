@@ -183,6 +183,3 @@ Caso queira contribuir para este projeto, fique à vontade para abrir **issues**
 - **Informações úteis**: Mantenha sempre links úteis, como o link para o Laravel e links dos testes do Laravel, badge de status e versão do framework.
 - **Instruções para rodar**: Expliquei os passos para rodar o projeto localmente, desde o clone do repositório até a execução no servidor.
 - **Contribuição**: Instruções claras para que outras pessoas possam contribuir no projeto.
-
-Agora, o README está mais completo e informativo. Você pode adicionar esse conteúdo no seu repositório, fazer o commit e prosseguir com o desenvolvimento!
-
